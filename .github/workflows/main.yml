@@ -25,4 +25,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: HTML Preview
-          path: ${{ steps.html_preview.outputs.html_preview_dir }}
+          path: ${{ steps.html_preview.outputs.url }}
